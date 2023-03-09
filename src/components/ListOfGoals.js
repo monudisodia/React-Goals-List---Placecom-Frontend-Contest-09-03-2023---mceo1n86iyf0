@@ -1,8 +1,8 @@
 import React from "react";
 
-const ListOfGoals = ({ goals }) => (
+const ListOfGoals = ({ addingGoals }) => (
   <ul>
-    {goals.map(({ goal, by }, i) => (
+    {addingGoals.map(({ goal, by }, i) => (
       <li key={i}>
         My goal is to {goal}, by {by}.
       </li>
